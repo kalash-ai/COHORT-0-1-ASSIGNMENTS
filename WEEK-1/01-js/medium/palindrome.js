@@ -4,16 +4,6 @@
 */
 
 function isPalindrome(str) {
-  // let newstr =  str.replace(/[^a-z0-9]/gi, '').toLowerCase()
-  // let newStrReversed = newstr.split('').reverse().join()
-  // let arrangedstr = newStrReversed
-  // if(arrangedstr == newstr){
-  //   return true
-
-  // } 
-  // else{
-  //   return false
-  // } 
   let newStr = str.toLowerCase().replace(/[^a-z0-9]/gi, '')
   let newStrReversed = newStr.split('').reverse().join('');
   
@@ -28,6 +18,20 @@ function isPalindrome(str) {
 
 
 }
+
+// Time complexity is not FOLLOWED
+// Ignore the following code
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+  // let newstr =  str.replace(/[^a-z0-9]/gi, '').toLowerCase()
+  // let newStrReversed = newstr.split('').reverse().join()
+  // let arrangedstr = newStrReversed
+  // if(arrangedstr == newstr){
+  //   return true
+
+  // } 
+  // else{
+  //   return false
+  // } 
 
 module.exports = isPalindrome;
 
