@@ -18,17 +18,9 @@ function isAnagram(str1, str2) {
     return false
   }
 }
-//   const str = str1.toLowerCase().split('').sort().join()
-//   const new_str = str2.toLowerCase().split('').sort().join()
-//   if(str == new_str){
-//     return true
-//   }
-// else{
-//   return false
-// }
 
 
-// another logic (my code)
+// another logic (TC is not followed)
 
 
 // const newstr = str1.toLowerCase()
