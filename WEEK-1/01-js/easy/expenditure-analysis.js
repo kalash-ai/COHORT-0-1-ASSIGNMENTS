@@ -26,6 +26,12 @@
   
     return resultArr;
   }
+
+
+
+// Practising Logic
+// Ignore the code 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   //  for(let i of transactions){
 //   const{category, price} =i;
 //   if(!myMap.has(category)){
